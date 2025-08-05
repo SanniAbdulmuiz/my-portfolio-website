@@ -1,5 +1,5 @@
 import Navigation from "@/app/_components/Navigation";
-import Home from "@/app/_components/Logo";
+import Home from "@/app/_components/Home";
 
 function Header() {
   return (
