@@ -1,8 +1,10 @@
+import Expertise from "./_components/Expertise";
+
 export default function Page() {
   return (
-    <main className="mt-12 max-w-2xl mx-auto flex flex-col gap-24 px-4">
+    <main className="mt-12 flex flex-col gap-24 px-4">
       {/* Hero Section */}
-      <section className="text-center">
+      <section className="text-center max-w-2xl mx-auto">
         <h3 className="text-2xl text-blue-100 mb-10 tracking-tight font-normal">
           Hello! I&apos;m,
         </h3>
@@ -29,7 +31,7 @@ export default function Page() {
       </section>
 
       {/* About Section */}
-      <section className="text-center">
+      <section className="text-center max-w-2xl mx-auto">
         <h3 className="text-4xl text-blue-100 mb-10 tracking-tight font-semibold">
           About me
         </h3>
@@ -45,8 +47,8 @@ export default function Page() {
 
           <p>
             I specialize in JavaScript, TypeScript, React.js, Next.js,
-            ContextApi, Redux, HTML, CSS,Styled Component and Tailwind CSS, with
-            version control skills in Git and GitHub. I thrive on building
+            ContextApi, Redux, HTML, CSS, Styled Component and Tailwind CSS,
+            with version control skills in Git and GitHub. I thrive on building
             user-friendly interfaces that balance aesthetics and functionality,
             ensuring every project delivers both style and purpose.
           </p>
@@ -60,6 +62,11 @@ export default function Page() {
 
           <p>Let’s build something remarkable together.</p>
         </div>
+      </section>
+
+      {/* Expertise Section - full width */}
+      <section>
+        <Expertise />
       </section>
     </main>
   );
