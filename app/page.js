@@ -1,4 +1,6 @@
 import Expertise from "./_components/Expertise";
+import MyProjects from "./_components/MyProjects";
+import MyStack from "./_components/MyStack";
 
 export default function Page() {
   return (
@@ -47,10 +49,11 @@ export default function Page() {
 
           <p>
             I specialize in JavaScript, TypeScript, React.js, Next.js,
-            ContextApi, Redux, HTML, CSS, Styled Component and Tailwind CSS,
-            with version control skills in Git and GitHub. I thrive on building
-            user-friendly interfaces that balance aesthetics and functionality,
-            ensuring every project delivers both style and purpose.
+            ContextApi, Redux, ReactRouter, HTML, CSS, Styled Component and
+            Tailwind CSS, with version control skills in Git and GitHub. I
+            thrive on building user-friendly interfaces that balance aesthetics
+            and functionality, ensuring every project delivers both style and
+            purpose.
           </p>
 
           <p>
@@ -62,11 +65,23 @@ export default function Page() {
 
           <p>Let’s build something remarkable together.</p>
         </div>
+
+        <button className="bg-pink-500 hover:bg-fuchsia-500 mt-8 text-white font-semibold py-2 px-4 rounded-lg shadow-md hover:shadow-fuchsia-500/50 transition duration-300">
+          Get in touch
+        </button>
       </section>
 
       {/* Expertise Section - full width */}
       <section>
         <Expertise />
+      </section>
+
+      <section>
+        <MyStack />
+      </section>
+
+      <section>
+        <MyProjects />
       </section>
     </main>
   );

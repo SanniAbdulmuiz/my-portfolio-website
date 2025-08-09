@@ -63,10 +63,10 @@ export default function Expertise() {
         {expertise.map((item) => (
           <div
             key={item.id}
-            className="bg-blue-900/30 p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow"
+            className="group bg-blue-900/30 p-6 rounded-xl shadow-md transition-transform duration-300 hover:scale-105 hover:shadow-lg hover:shadow-fuchsia-500/30"
           >
             <div className="flex items-center gap-4 mb-4">
-              <item.icon className="h-8 w-8 text-fuchsia-500" />
+              <item.icon className="h-8 w-8 text-fuchsia-500 transition-transform duration-300 group-hover:rotate-6" />
               <p className="text-lg font-bold text-blue-100">{item.id}</p>
             </div>
             <p className="text-xl font-semibold text-white mb-2">
