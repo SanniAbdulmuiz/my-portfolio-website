@@ -9,6 +9,7 @@ import {
   SiStyledcomponents,
   SiTailwindcss,
   SiReactrouter,
+  SiReactquery,
 } from "react-icons/si";
 import { MdOutlineCompareArrows } from "react-icons/md"; // Context API icon
 
@@ -24,6 +25,7 @@ const stacks = [
   },
   { name: "Redux", icon: SiRedux, color: "text-purple-500" },
   { name: "React Router", icon: SiReactrouter, color: "text-red-500" },
+  { name: "React Query", icon: SiReactquery, color: "text-pink-500" },
   { name: "HTML", icon: SiHtml5, color: "text-orange-500" },
   { name: "CSS", icon: SiCss3, color: "text-blue-400" },
   {
