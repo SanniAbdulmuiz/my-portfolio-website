@@ -1,3 +1,5 @@
+import Button from "./Button";
+
 function Hero() {
   return (
     <div>
@@ -17,12 +19,14 @@ function Hero() {
       </p>
 
       <div className="flex justify-center gap-10">
-        <button className="bg-pink-500 hover:bg-fuchsia-500 text-white font-semibold py-2 px-4 rounded-lg shadow-md hover:shadow-fuchsia-500/50 transition duration-300">
+        <a
+          href="#projects"
+          className="bg-pink-500 hover:bg-fuchsia-500 text-white font-semibold py-2 px-4 rounded-lg shadow-md hover:shadow-fuchsia-500/50 transition duration-300"
+        >
           View my work
-        </button>
-        <button className="bg-pink-500 hover:bg-fuchsia-500 text-white font-semibold py-2 px-4 rounded-lg shadow-md hover:shadow-fuchsia-500/50 transition duration-300">
-          Download Resume
-        </button>
+        </a>
+
+        <Button />
       </div>
     </div>
   );

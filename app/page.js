@@ -25,11 +25,11 @@ export default function Page() {
         <MyStack />
       </section>
 
-      <section>
+      <section id="projects">
         <MyProjects />
       </section>
 
-      <section className="text-center max-w-2xl mx-auto">
+      <section id="contact" className="text-center max-w-2xl mx-auto">
         <ContactMe />
       </section>
 

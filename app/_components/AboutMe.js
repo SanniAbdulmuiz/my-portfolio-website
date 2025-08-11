@@ -43,9 +43,12 @@ function AboutMe() {
         <p>Let&apos;s build something remarkable together.</p>
       </div>
 
-      <button className="bg-pink-500 hover:bg-fuchsia-500 mt-8 text-white font-semibold py-2 px-4 rounded-lg shadow-md hover:shadow-fuchsia-500/50 transition duration-300">
+      <a
+        href="#contact"
+        className="inline-block bg-pink-500 hover:bg-fuchsia-500 mt-8 text-white font-semibold py-2 px-4 rounded-lg shadow-md hover:shadow-fuchsia-500/50 transition duration-300"
+      >
         Get in touch
-      </button>
+      </a>
     </div>
   );
 }
