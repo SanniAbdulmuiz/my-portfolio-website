@@ -10,7 +10,7 @@ function Navigation() {
         <ul className="sm:flex sm:gap-16 gap-8 items-center">
           <li>
             <Link
-              href="#"
+              href="https://github.com/SanniAbdulmuiz"
               className="flex items-center gap-4 text-white hover:text-fuchsia-500 transition-colors duration-300"
             >
               <FaGithub size={24} />
@@ -20,7 +20,7 @@ function Navigation() {
 
           <li>
             <Link
-              href="#"
+              href="https://x.com/Abdulmuiz_sanni"
               className="flex items-center gap-4 text-white hover:text-fuchsia-500 transition-colors duration-300"
             >
               <FaTwitter size={24} />
@@ -29,7 +29,7 @@ function Navigation() {
           </li>
           <li>
             <Link
-              href="#"
+              href="https://linkedin.com/in/sanni-abdulmuiz"
               className="flex items-center gap-4 text-white hover:text-fuchsia-500 transition-colors duration-300"
             >
               <FaLinkedin size={24} />
@@ -38,7 +38,7 @@ function Navigation() {
           </li>
           <li>
             <Link
-              href="#"
+              href="mailto:ayomideabdulmuiz565@gmail.com"
               className="flex items-center gap-4 text-white hover:text-fuchsia-500 transition-colors duration-300"
             >
               <FaEnvelope size={24} />
