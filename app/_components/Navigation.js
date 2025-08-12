@@ -4,6 +4,7 @@ import { useState, useRef, useEffect } from "react";
 import Link from "next/link";
 import { FaGithub, FaLinkedin, FaTwitter, FaEnvelope } from "react-icons/fa";
 import { HiMenu, HiX } from "react-icons/hi";
+import Logo from "@/app/_components/Logo"; // Import logo
 
 function Navigation() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -12,7 +13,6 @@ function Navigation() {
   const toggleMenu = () => setMenuOpen((prev) => !prev);
   const closeMenu = () => setMenuOpen(false);
 
-  // Close when clicking outside
   useEffect(() => {
     function handleClickOutside(event) {
       if (menuRef.current && !menuRef.current.contains(event.target)) {
@@ -95,12 +95,13 @@ function Navigation() {
       {/* Mobile Menu */}
       <div
         ref={menuRef}
-        className={`fixed top-0 left-0 w-full h-[50vh] bg-gray-900 p-6 transform ${
+        className={`fixed top-0 left-0 w-full h-[75vh] bg-gray-900 p-6 transform ${
           menuOpen ? "translate-y-0 opacity-100" : "-translate-y-full opacity-0"
         } transition-all duration-500 ease-in-out z-30 lg:hidden shadow-lg rounded-b-2xl`}
       >
-        {/* Close Icon inside menu */}
-        <div className="flex justify-end">
+        {/* Top Row: Logo + Close */}
+        <div className="flex justify-between items-center">
+          <Logo />
           <button
             onClick={closeMenu}
             className="text-white hover:text-fuchsia-500 transition-colors duration-300"
@@ -110,7 +111,7 @@ function Navigation() {
         </div>
 
         {/* Menu Items */}
-        <ul className="flex flex-col items-center justify-center gap-6 h-[calc(50vh-40px)]">
+        <ul className="flex flex-col gap-6 mt-6">
           <li>
             <Link
               href="https://github.com/SanniAbdulmuiz"
@@ -151,19 +152,19 @@ function Navigation() {
               <span>Email</span>
             </Link>
           </li>
-
-          {/* Full-width button */}
-          <li className="w-full px-4 mt-4">
-            <a
-              href="/resume.pdf"
-              download="Abdulmuiz_Resume.pdf"
-              onClick={closeMenu}
-              className="w-full block text-center bg-pink-500 hover:bg-fuchsia-500 text-white font-semibold py-3 rounded-lg shadow-md hover:shadow-fuchsia-500/50 transition duration-300"
-            >
-              Download Resume
-            </a>
-          </li>
         </ul>
+
+        {/* Centered Button */}
+        <div className="mt-6 flex justify-center">
+          <a
+            href="/resume.pdf"
+            download="Abdulmuiz_Resume.pdf"
+            onClick={closeMenu}
+            className="w-full max-w-xs text-center bg-pink-500 hover:bg-fuchsia-500 text-white font-semibold py-3 rounded-lg shadow-md hover:shadow-fuchsia-500/50 transition duration-300"
+          >
+            Download Resume
+          </a>
+        </div>
       </div>
 
       {/* Desktop Button */}
