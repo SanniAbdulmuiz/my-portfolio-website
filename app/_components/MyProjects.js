@@ -41,7 +41,7 @@ const projects = [
   {
     title: "Wurana",
     description:
-      "Wurana is a decentralized talent marketplace where users can connect with skilled craftspeople or offer their own services. Powered by secure smart contracts and blockchain technology, the platform enables safe hiring through escrow-protected payments, NFT-based reputation badges, and lightning-fast transactions with minimal fees.",
+      "Volunteered as a frontend contributor for Wurana, a decentralized talent marketplace that connects users with skilled craftspeople through secure smart contracts, escrow payments, and NFT-based reputation badges.",
     image: project3,
     tech: ["Tailwind CSS", "Redux"],
     liveLink: "#",
