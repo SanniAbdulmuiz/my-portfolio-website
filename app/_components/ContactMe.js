@@ -5,17 +5,14 @@ import Button from "./Button";
 function ContactMe() {
   return (
     <div className="text-center space-y-6">
-      {/* Heading */}
       <h2 className="text-4xl font-bold text-blue-100 tracking-tight">
         Contact Me
       </h2>
 
-      {/* Subheading */}
       <p className="text-lg text-blue-200 max-w-md mx-auto">
         Have an awesome project idea? Let’s connect and bring it to life.
       </p>
 
-      {/* Social Links */}
       <div className="flex flex-col items-center gap-12">
         <nav className="text-lg">
           <ul className="flex flex-col gap-8 items-center">
