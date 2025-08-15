@@ -94,8 +94,6 @@ function MyProjects() {
                   </span>
                 ))}
               </div>
-
-              {/* Live Demo / Ongoing */}
               <div className="mt-6">
                 {project.liveLink !== "#" ? (
                   <Link
