@@ -62,7 +62,6 @@ function MyProjects() {
             className="group bg-gradient-to-br from-blue-900/30 to-purple-900/30 rounded-xl overflow-hidden shadow-lg 
                        transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:from-purple-800/30 hover:to-blue-800/30"
           >
-            {/* Image */}
             <div className="overflow-hidden">
               <Image
                 src={project.image}
@@ -73,7 +72,6 @@ function MyProjects() {
               />
             </div>
 
-            {/* Content */}
             <div className="p-6 flex flex-col h-full">
               <h2 className="text-2xl font-semibold text-white mb-2">
                 {project.title}
@@ -83,7 +81,6 @@ function MyProjects() {
                 {project.description}
               </p>
 
-              {/* Tech Stack */}
               <div className="flex flex-wrap gap-2 mb-6">
                 {project.tech.map((tech) => (
                   <span
