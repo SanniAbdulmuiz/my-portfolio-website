@@ -11,7 +11,7 @@ import {
   SiReactrouter,
   SiReactquery,
 } from "react-icons/si";
-import { MdOutlineCompareArrows } from "react-icons/md"; // Context API icon
+import { MdOutlineCompareArrows } from "react-icons/md";    
 
 const stacks = [
   { name: "JavaScript", icon: SiJavascript, color: "text-yellow-400" },
