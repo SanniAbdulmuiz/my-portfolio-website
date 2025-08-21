@@ -43,7 +43,7 @@ const projects = [
     description:
       "Volunteered as a frontend contributor for Wurana, a decentralized talent marketplace that connects users with skilled craftspeople through secure smart contracts, escrow payments, and NFT-based reputation badges.",
     image: project3,
-    tech: ["Typescript", "React", "React-Router", "Tailwind CSS"],
+    tech: ["Typescript", "React", "React-Router", "Vite", "Tailwind CSS"],
     liveLink: "#",
   },
 ];
