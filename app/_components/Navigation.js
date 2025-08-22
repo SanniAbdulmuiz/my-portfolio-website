@@ -12,7 +12,6 @@ function Navigation() {
 
   const toggleMenu = () => setMenuOpen((prev) => !prev);
 
-  // Close menu when clicking outside
   useEffect(() => {
     const handleClickOutside = (event) => {
       if (menuRef.current && !menuRef.current.contains(event.target)) {
