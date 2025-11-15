@@ -44,25 +44,26 @@ function AboutMe() {
 
       <div className='space-y-6 text-blue-50 text-lg leading-relaxed'>
         <p>
-          Hi, I&apos;m Abdulmuiz, a passionate Frontend Web Developer with 4+ years of experience,
-          dedicated to crafting clean, responsive, and visually engaging digital experiences. My
-          journey into web development began with curiosity and a love for solving problems, which
-          quickly evolved into a commitment to mastering modern web technologies.
+          Hi, I&apos;m Abdulmuiz, a passionate Frontend Mobile and Web Developer with 4+ years of
+          experience, dedicated to crafting clean, responsive, and visually engaging digital
+          experiences. My journey into web development began with curiosity and a love for solving
+          problems, which quickly evolved into a commitment to mastering modern web technologies.
         </p>
 
         <p>
-          I specialize in <span className='text-yellow-400'>JavaScript</span>,
-          <span className='text-blue-400'>TypeScript</span>,
-          <span className='text-cyan-400'>React.js</span>,
-          <span className='text-white'>Next.js</span>,
-          <span className='text-green-400'>Context API</span>,
-          <span className='text-purple-500'>Redux</span>,
-          <span className='text-red-500'>React Router</span>,
-          <span className='text-pink-400'>TanStack React Query</span>,
-          <span className='text-orange-500'>HTML</span>,<span className='text-blue-500'>CSS</span>,
-          <span className='text-pink-400'>Styled Components</span> and
+          I specialize in <span className='text-yellow-400'>JavaScript</span>,{' '}
+          <span className='text-blue-400'>TypeScript</span>,{' '}
+          <span className='text-cyan-400'>React.js</span>,{' '}
+          <span className='text-green-400'>React Native</span>,{' '}
+          <span className='text-white'>Next.js</span>,{' '}
+          <span className='text-green-400'>Context API</span>,{' '}
+          <span className='text-purple-500'>Redux</span>,{' '}
+          <span className='text-red-500'>React Router</span>,{' '}
+          <span className='text-pink-400'>TanStack React Query</span>,{' '}
+          <span className='text-orange-500'>HTML</span>, <span className='text-blue-500'>CSS</span>,{' '}
+          <span className='text-pink-400'>Styled Components</span> and{' '}
           <span className='text-cyan-300'>Tailwind CSS</span>, with version control skills in{' '}
-          <span className='text-orange-300'>Git</span> and
+          <span className='text-orange-300'>Git</span> and{' '}
           <span className='text-gray-300'>GitHub</span>. I thrive on building user-friendly
           interfaces that balance aesthetics and functionality, ensuring every project delivers both
           style and purpose.

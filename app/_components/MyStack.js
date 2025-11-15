@@ -57,6 +57,7 @@ const stacks = [
   { name: 'JavaScript', icon: SiJavascript, color: 'text-yellow-400' },
   { name: 'TypeScript', icon: SiTypescript, color: 'text-blue-500' },
   { name: 'React.js', icon: SiReact, color: 'text-cyan-400' },
+  { name: 'React Native', icon: SiReact, color: 'text-green-400' }, // Added React Native
   { name: 'Next.js', icon: SiNextdotjs, color: 'text-white' },
   { name: 'Context API', icon: MdOutlineCompareArrows, color: 'text-green-400' },
   { name: 'Redux', icon: SiRedux, color: 'text-purple-500' },
