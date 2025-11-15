@@ -3,7 +3,7 @@
 export default function Experience() {
   const experiences = [
     {
-      company: 'OkeyMeta',
+      company: 'OkeyMeta LTD',
       role: 'Frontend Developer',
       period: '2024 – 2025',
       achievements: [
