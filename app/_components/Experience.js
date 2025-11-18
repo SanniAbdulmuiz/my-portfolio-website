@@ -5,7 +5,7 @@ export default function Experience() {
     {
       company: 'OkeyMeta LTD',
       role: 'Frontend Developer',
-      period: '2024 – 2025',
+      period: 'February 2024 – April 2025',
       achievements: [
         'Developed, maintained, and optimized the company website to align with evolving product requirements.',
         'Improved page performance and load time by implementing image optimization, code splitting, and efficient caching strategies.',
@@ -18,7 +18,7 @@ export default function Experience() {
     {
       company: 'Farmilik',
       role: 'Web & Mobile Developer',
-      period: '2025 – Present',
+      period: 'September 2025 – Present',
       achievements: [
         'Worked with the frontend and mobile development team across web and hybrid mobile platforms.',
         'Building fast, scalable, and secure user interfaces using React, React-Native, Next.js, and modern ui frameworks.',
