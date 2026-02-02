@@ -44,10 +44,10 @@ function AboutMe() {
 
       <div className='space-y-6 text-blue-50 text-lg leading-relaxed'>
         <p>
-          Hi, I&apos;m Abdulmuiz, a passionate Frontend Mobile and Web Developer with 4+ years of
-          experience, dedicated to crafting clean, responsive, and visually engaging digital
-          experiences. My journey into web development began with curiosity and a love for solving
-          problems, which quickly evolved into a commitment to mastering modern web technologies.
+          Hi, I&apos;m Abdulmuiz, a passionate Frontend Web Developer with 4+ years of experience,
+          dedicated to crafting clean, responsive, and visually engaging digital experiences. My
+          journey into web development began with curiosity and a love for solving problems, which
+          quickly evolved into a commitment to mastering modern web technologies.
         </p>
 
         <p>

@@ -3,22 +3,9 @@
 export default function Experience() {
   const experiences = [
     {
-      company: 'OkeyMeta LTD',
-      role: 'Frontend Developer',
-      period: 'February 2024 – April 2025',
-      achievements: [
-        'Developed, maintained, and optimized the company website to align with evolving product requirements.',
-        'Improved page performance and load time by implementing image optimization, code splitting, and efficient caching strategies.',
-        'Enhanced user engagement and conversion rates by redesigning critical user flows and improving UI responsiveness.',
-        'Collaborated closely with backend engineers and product stakeholders to deliver scalable, maintainable frontend features.',
-        'Implemented accessibility best practices and SEO improvements to boost organic visibility.',
-        'Delivered high-quality, reusable, and modular UI components using React and modern tooling.',
-      ],
-    },
-    {
       company: 'Farmilik',
-      role: 'Web & Mobile Developer',
-      period: 'September 2025 – Present',
+      role: 'Web Developer',
+      period: 'April 2025 - December 2025',
       achievements: [
         'Worked with the frontend and mobile development team across web and hybrid mobile platforms.',
         'Building fast, scalable, and secure user interfaces using React, React-Native, Next.js, and modern ui frameworks.',
@@ -27,6 +14,19 @@ export default function Experience() {
         'Developing new product features continuously while ensuring seamless user experiences and smooth onboarding for new users.',
         'Integrating APIs, authentication systems, and dynamic data workflows while maintaining responsive performance.',
         'Optimizing performance, accessibility, and platform reliability through iterative improvements and modern engineering practices.',
+      ],
+    },
+    {
+      company: 'OkeyMeta LTD',
+      role: 'Frontend Developer',
+      period: 'June 2024 - March 2025',
+      achievements: [
+        'Developed, maintained, and optimized the company website to align with evolving product requirements.',
+        'Improved page performance and load time by implementing image optimization, code splitting, and efficient caching strategies.',
+        'Enhanced user engagement and conversion rates by redesigning critical user flows and improving UI responsiveness.',
+        'Collaborated closely with backend engineers and product stakeholders to deliver scalable, maintainable frontend features.',
+        'Implemented accessibility best practices and SEO improvements to boost organic visibility.',
+        'Delivered high-quality, reusable, and modular UI components using React and modern tooling.',
       ],
     },
   ]
